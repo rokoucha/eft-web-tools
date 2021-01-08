@@ -150,6 +150,8 @@ export const MapViewer: React.VFC<MapViewerProps> = ({
       ref={canvasRef}
       //style={{ height, width }}
       width={CANVAS_WIDTH}
-    />
+    >
+      <img src={url} alt={name} />
+    </canvas>
   )
 }
