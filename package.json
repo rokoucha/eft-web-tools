@@ -1,0 +1,29 @@
+{
+  "name": "eft-web-tools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/rokoucha/eft-web-tools.git",
+  "author": "Rokoucha <git@rokoucha.net>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "next": "^10.0.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-use": "^15.3.6",
+    "transform-ts": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.14",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
+  }
+}
