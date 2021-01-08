@@ -53,8 +53,8 @@ export const MapViewer: React.VFC<MapViewerProps> = ({
 
   useEffect(() => {
     const image = new Image()
-    image.src = url
     image.referrerPolicy = 'no-referrer'
+    image.src = url
     image.addEventListener(
       'load',
       () => {
@@ -151,7 +151,7 @@ export const MapViewer: React.VFC<MapViewerProps> = ({
       //style={{ height, width }}
       width={CANVAS_WIDTH}
     >
-      <img src={url} alt={name} />
+      <img src={url} alt={name} referrerPolicy="no-referrer" />
     </canvas>
   )
 }
